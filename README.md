@@ -12,7 +12,7 @@ CREATE DATABASE SistemaLogin
 
 USE SistemaLogin
 
-CREATE TABLE sistemalogin.dadosUsuarios(
+CREATE TABLE SistemaLogin.dadosUsuarios(
 
 	id int auto_increment not null,
 	

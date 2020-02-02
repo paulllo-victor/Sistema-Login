@@ -1,5 +1,7 @@
 INFORMAÇÕES DO BANCO DE DADOS 
 -------------------------------------------------
+*BANCO DE DADOS UTILIZADO:  MYSQL
+
 *NOME DO BANCO DE DADOS: SistemaLogin;
 
 *NOME DA TABELA: dadosUsuarios;

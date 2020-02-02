@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2020, 10:40:42 PM
+    Author     : Paulo Victor
+*/
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Sigmar+One&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.center{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding: 15px 0;
+    background-color: #9db8e3;
+}
+header h1{
+    font-family: 'Sigmar One', cursive;
+    font-weight: normal;
+    color: #F0F2EB;
+}
+.logo{
+    float: left;
+}
+.formulário{
+    float: right;
+}
+.input{
+    margin-right: 10px;
+    display: inline-block;
+}
+.input span{
+    display: block;
+    margin-bottom: 3px;
+    color: #fff;
+}
+.input input[type=email],.input input[type=password]{
+    padding: 2px 3px;
+}
+.input input[type=submit]{
+    padding: 3px 7px;
+    background-color: #497ac9;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.input input[type=submit]:hover{
+    background-color: #72d68f;
+}
+.input input[type=email]:focus,.input input[type=password]:focus, .input input[type=submit]:focus{
+    outline: 0;
+}
+section{
+    width: 100%;
+    padding: 40px;
+    background-color: #9dbec4;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.criar-conta{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+.criar-conta h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.criar-conta h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.w50{
+    padding: 0 1%;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.w50 input[type=text], .w50 input[type=password],.w100 input[type=email], .w100 input[type=password],  .w100 input[type=text]{
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.w100{    
+    padding: 0 1%;
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.w100 > span{
+    float: left;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.w100 input[type=submit]{
+    margin-top: 10px;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+    transition:  background 2s;
+}
+.w100 input[type=submit]:hover{
+    background: linear-gradient( #578843,#67ae55);
+}
+.w50 input[type=text]:focus, .w50 input[type=password]:focus,.w100 input[type=email]:focus, .w100 input[type=password]:focus,  .w100 input[type=text]:focus, .w100 input[type=submit]:focus{
+    outline: 0;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    font-size: 20px;
+    background-color: #9db8e3;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer p a{
+    text-decoration: none;
+    color: #000;
+}
+footer p a:hover{
+    text-decoration: underline;
+    color: #145ac9;
+}
+@media screen and (max-width:800px){
+    header{
+        height: auto;
+    }
+    header h1{       
+        text-align: center;
+    }
+    .logo{
+        float: none;
+    }
+    .formulário{
+        width: 80%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+    .input{          
+    padding: 0;
+    margin-top: 10px;
+    display: block;
+    }
+    .input span{
+        font-size: 18px;
+    }
+    .input input[type=email], .input input[type=password]{
+        width: 100%;
+        padding: 6px 4px;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    .input input[type=submit]{
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .criar-conta{
+        width: 80%;
+    }
+}

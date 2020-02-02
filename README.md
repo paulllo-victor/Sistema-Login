@@ -13,12 +13,19 @@ CREATE DATABASE SistemaLogin
 USE SistemaLogin
 
 CREATE TABLE sistemalogin.dadosUsuarios(
+
 	id int auto_increment not null,
+	
 	nome varchar(50) not null,
+	
 	sobrenome varchar(50) not null,
+	
 	email varchar(150) not null,
+	
 	senha varchar(150) not null,
+	
 	telefone_celular varchar(150) not null,
+	
 	primary key(id)	
 );
 

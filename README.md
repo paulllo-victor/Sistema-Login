@@ -21,6 +21,7 @@ CREATE TABLE sistemalogin.dadosUsuarios(
 	telefone_celular varchar(150) not null,
 	primary key(id)	
 );
+
 -------------------------------------------------
 COM ISSO O BANCO DE DADOS VAI ESTÁ CERTINHO PARA 
 RECEBER OS DADOS.
